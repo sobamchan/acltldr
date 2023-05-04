@@ -48,7 +48,6 @@ def run(url: str, odir: str, prefix: str, use_gpu: bool):
                 "url": _url,
             }
         )
-        break
 
     sienna.save(papers, os.path.join(odir, f"{prefix}.papers.jsonl"))
 
